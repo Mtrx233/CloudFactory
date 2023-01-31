@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: consumer
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+server:
+  port: 9002
+  servlet:
+    encoding:
+      charset: utf-8
+      enabled: true
+      force: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.com:7001/eureka/,http://eureka2.com:7002/eureka/,http://eureka3.com:7003/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: feign-consumer
+
+ribbon:
+  #指的是建立连接所用的时间，适用于网络状况正常的情况下,两端连接所用的时间
+  ReadTimeout: 5000
+  #指的是建立连接后从服务器读取到可用资源所用的时间
+  ConnectTimeout: 5000
+
+feign:
+  hystrix:
+    enabled: true
+  circuitbreaker:
+    enabled: true
+# hystrix超时时间配置 （如果不配置的话默认是1000毫秒超时）
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000

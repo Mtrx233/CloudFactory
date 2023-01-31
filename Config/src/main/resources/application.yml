@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/yinin/spring-cloud-project
+          default-label: master
+          search-paths: springcloud-config
+      label: master
+
+
+server:
+  port: 7756
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.com:7001/eureka/,http://eureka2.com:7002/eureka/,http://eureka3.com:7003/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: config-server

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="turbine" />
+        <module name="turbine1" />
+        <module name="eureka3" />
+        <module name="eureka1" />
+        <module name="eureka2" />
+        <module name="User-Provider" />
+        <module name="User-Provider1" />
+        <module name="consumer1" />
+        <module name="config" />
+        <module name="Product-Provider" />
+        <module name="consumer" />
+        <module name="dashboard" />
+        <module name="gateway" />
+        <module name="Product-Provider1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config" target="1.8" />
+      <module name="consumer" target="1.8" />
+      <module name="consumer1" target="1.8" />
+      <module name="dashboard" target="1.8" />
+      <module name="eureka1" target="1.8" />
+      <module name="eureka2" target="1.8" />
+      <module name="eureka3" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="Product-Provider" target="1.8" />
+      <module name="Product-Provider1" target="1.8" />
+      <module name="turbine" target="1.8" />
+      <module name="turbine1" target="1.8" />
+      <module name="User-Provider" target="1.8" />
+      <module name="User-Provider1" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Product-Provider" options="-parameters" />
+      <module name="Product-Provider1" options="-parameters" />
+      <module name="User-Provider" options="-parameters" />
+      <module name="User-Provider1" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="consumer" options="-parameters" />
+      <module name="consumer1" options="-parameters" />
+      <module name="dashboard" options="-parameters" />
+      <module name="eureka1" options="-parameters" />
+      <module name="eureka2" options="-parameters" />
+      <module name="eureka3" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="turbine" options="-parameters" />
+      <module name="turbine1" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.UserProvider.dao.UserDao">
+   <select id="getUserByMassage" resultType="com.example.UserProvider.bean.User">
+      select * from user natural join user_kind where account=#{account} and  password=#{password}
+   </select>
+
+   <select id="getAllUser" resultType="com.example.UserProvider.bean.User">
+      SELECT * FROM user natural join user_kind
+      <if test="account !=null ">
+         WHERE account like #{account}
+      </if>
+      LIMIT #{pageStart},#{pageSize}
+   </select>
+
+   <select id="getUserCounts" resultType="java.lang.Integer">
+      SELECT count(*) FROM user
+      <if test="account !=null ">
+         WHERE account like #{account}
+      </if>
+   </select>
+
+   <select id="addUser" resultType="java.lang.String">
+        call register(#{email},#{account},#{password},#{user_name},#{phone},#{kind},#{f_name},#{f_brief})
+   </select>
+
+   <delete id="deleteUser" >
+      delete from user where user_id=#{id}
+   </delete>
+
+   <select id="getUser" resultType="com.example.UserProvider.bean.User">
+      SELECT count(*) FROM user
+      <if test="account !=null ">
+         WHERE account = #{id}
+      </if>
+   </select>
+
+   <select id="isExist" resultType="java.lang.Integer">
+      SELECT count(*) FROM user
+      where account=#{account} and email=#{email}
+   </select>
+
+   <update id="updateUser">
+      update user set password=#{password},user_name=#{user_name},email=#{email},phone=#{phone} where user_id=#{user_id}
+   </update>
+
+
+   <update id="changePassword">
+      update user set password=#{password} where account=#{account}
+   </update>
+
+   <select id="userList" resultType="com.example.UserProvider.bean.User">
+      SELECT * FROM user natural join user_kind
+   </select>
+   <select id="getState" resultType="java.lang.Integer">
+      select state from factory natural join user WHERE user_id =#{user_id}
+   </select>
+
+
+</mapper>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="fastRequestCollection">
+    <option name="detail">
+      <CollectionDetail>
+        <option name="childList">
+          <list>
+            <CollectionDetail>
+              <option name="childList">
+                <list>
+                  <CollectionDetail>
+                    <option name="childList">
+                      <list>
+                        <CollectionDetail>
+                          <option name="domain" value="localhost:9001" />
+                          <option name="enableEnv" value="dev" />
+                          <option name="enableProject" value="comsumer" />
+                          <option name="id" value="id_com.example.consumer.controller.CallFactoryController.deleteFactory" />
+                          <option name="name" value="New Request" />
+                          <option name="paramGroup">
+                            <ParamGroupCollection>
+                              <option name="bodyKeyValueListJson" value="" />
+                              <option name="className" value="com.example.consumer.controller.CallFactoryController" />
+                              <option name="jsonDocument" value="" />
+                              <option name="method" value="deleteFactory" />
+                              <option name="methodDescription" value="New Request" />
+                              <option name="methodType" value="GET" />
+                              <option name="multipartKeyValueListJson" value="[]" />
+                              <option name="originUrl" value="/test" />
+                              <option name="pathParamsKeyValueListJson" value="[]" />
+                              <option name="url" value="/test" />
+                              <option name="urlEncodedKeyValueListJson" value="[]" />
+                              <option name="urlEncodedKeyValueListText" value="" />
+                              <option name="urlParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:1},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;userList[0].user_id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:1},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;userList[0].user_kind_id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:1},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;userList[0].account&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;account_cohs4&quot;},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;userList[0].password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;password_hbiz7&quot;},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;userList[0].user_name&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;user_name_i3opd&quot;},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;userList[0].kind&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;kind_nqnth&quot;},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;userList[0].email&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;email_fyxst&quot;},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;userList[0].phone&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;phone_ak8r3&quot;},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;userList[0].f_brief&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;f_brief_m28o2&quot;},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;userList[0].f_name&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;f_name_5bj7z&quot;}]" />
+                              <option name="urlParamsKeyValueListText" value="id=1&#10;&amp;userList[0].user_id=1&#10;&amp;userList[0].user_kind_id=1&#10;&amp;userList[0].account=account_cohs4&#10;&amp;userList[0].password=password_hbiz7&#10;&amp;userList[0].user_name=user_name_i3opd&#10;&amp;userList[0].kind=kind_nqnth&#10;&amp;userList[0].email=email_fyxst&#10;&amp;userList[0].phone=phone_ak8r3&#10;&amp;userList[0].f_brief=f_brief_m28o2&#10;&amp;userList[0].f_name=f_name_5bj7z" />
+                            </ParamGroupCollection>
+                          </option>
+                          <option name="type" value="2" />
+                        </CollectionDetail>
+                      </list>
+                    </option>
+                    <option name="id" value="20220527100729682" />
+                    <option name="name" value="CallFactoryController" />
+                    <option name="type" value="3" />
+                  </CollectionDetail>
+                </list>
+              </option>
+              <option name="id" value="20220527100730681" />
+              <option name="name" value="consumer" />
+              <option name="type" value="4" />
+            </CollectionDetail>
+            <CollectionDetail>
+              <option name="groupId" value="1" />
+              <option name="id" value="1" />
+              <option name="name" value="Default Group" />
+              <option name="type" value="1" />
+            </CollectionDetail>
+          </list>
+        </option>
+        <option name="groupId" value="-1" />
+        <option name="id" value="0" />
+        <option name="name" value="Root" />
+        <option name="type" value="1" />
+      </CollectionDetail>
+    </option>
+  </component>
+</project>

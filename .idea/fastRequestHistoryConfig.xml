@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="fastRequestHistoryConfig">
+    <option name="historyList">
+      <list>
+        <ResponseHistory>
+          <option name="className" value="com.example.consumer.controller.CallProductController" />
+          <option name="code" value="401" />
+          <option name="enableEnv" value="gateway" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="getUserList" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.consumer.controller.CallProductController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="getUserList" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/allProduct" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/allProduct" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;query&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;&quot;},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;pageNum&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:1},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;pageSize&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:1}]" />
+              <option name="urlParamsKeyValueListText" value="query=&#10;&amp;pageNum=1&#10;&amp;pageSize=1" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9000/store/allProduct?pageSize=1&amp;pageNum=1&amp;query=&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="Error request, response status: 401" />
+          <option name="url" value="/allProduct" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.consumer.controller.CallProductController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="gateway" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="getUserList" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.consumer.controller.CallProductController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="getUserList" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/allProduct" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/allProduct" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;query&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;&quot;},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;pageNum&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:1},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;pageSize&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:1}]" />
+              <option name="urlParamsKeyValueListText" value="query=&#10;&amp;pageNum=1&#10;&amp;pageSize=1" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9000/store/allProduct?pageSize=1&amp;pageNum=1&amp;query=&#13;&#10;Request Headers: &#13;&#10;    Authorization: pass&#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;number&quot;:12,&quot;data&quot;:[{&quot;kind&quot;:&quot;玩具1&quot;,&quot;p_account&quot;:&quot;PRODUCT20200723021203643&quot;,&quot;p_brief&quot;:&quot;产品&quot;,&quot;p_name&quot;:&quot;产品1&quot;,&quot;p_price&quot;:10.0,&quot;p_specification&quot;:&quot;物美价廉&quot;,&quot;product_id&quot;:1,&quot;product_kind_id&quot;:1}]}" />
+          <option name="url" value="/allProduct" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.consumer.controller.CallProductController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="gateway" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="getUserList" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.consumer.controller.CallProductController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="getUserList" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/allProduct" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/allProduct" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;query&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;&quot;},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;pageNum&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:1},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;pageSize&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:1}]" />
+              <option name="urlParamsKeyValueListText" value="query=&#10;&amp;pageNum=1&#10;&amp;pageSize=1" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9000/store/allProduct?pageSize=1&amp;pageNum=1&amp;query=&#13;&#10;Request Headers: &#13;&#10;    Authorization: pass&#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;number&quot;:11,&quot;data&quot;:[{&quot;kind&quot;:&quot;玩具1&quot;,&quot;p_account&quot;:&quot;PRODUCT20200723021203643&quot;,&quot;p_brief&quot;:&quot;产品&quot;,&quot;p_name&quot;:&quot;产品1&quot;,&quot;p_price&quot;:10.0,&quot;p_specification&quot;:&quot;物美价廉&quot;,&quot;product_id&quot;:1,&quot;product_kind_id&quot;:1}]}" />
+          <option name="url" value="/allProduct" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.consumer.controller.CallProductController" />
+          <option name="code" value="401" />
+          <option name="enableEnv" value="gateway" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="getUserList" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.consumer.controller.CallProductController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="getUserList" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/allProduct" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/allProduct" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;query&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;&quot;},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;pageNum&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:1},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;pageSize&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:1}]" />
+              <option name="urlParamsKeyValueListText" value="query=&#10;&amp;pageNum=1&#10;&amp;pageSize=1" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9000/store/allProduct?pageSize=1&amp;pageNum=1&amp;query=&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="Error request, response status: 401" />
+          <option name="url" value="/allProduct" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.consumer.controller.CallProductController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="gateway" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="getUserList" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.consumer.controller.CallProductController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="getUserList" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/allProduct" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/allProduct" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;query&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;&quot;},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;pageNum&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:1},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;pageSize&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:1}]" />
+              <option name="urlParamsKeyValueListText" value="query=&#10;&amp;pageNum=1&#10;&amp;pageSize=1" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9000/store/allProduct?pageSize=1&amp;pageNum=1&amp;query=&#13;&#10;Request Headers: &#13;&#10;    Authorization: pass&#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;number&quot;:11,&quot;data&quot;:[{&quot;kind&quot;:&quot;玩具1&quot;,&quot;p_account&quot;:&quot;PRODUCT20200723021203643&quot;,&quot;p_brief&quot;:&quot;产品&quot;,&quot;p_name&quot;:&quot;产品1&quot;,&quot;p_price&quot;:10.0,&quot;p_specification&quot;:&quot;物美价廉&quot;,&quot;product_id&quot;:1,&quot;product_kind_id&quot;:1}]}" />
+          <option name="url" value="/allProduct" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.consumer.controller.CallUserController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="gateway" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="getUserList" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.consumer.controller.CallUserController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="getUserList" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/allUsers" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/allUsers" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;query&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;&quot;},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;pageNum&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:1},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;pageSize&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:1}]" />
+              <option name="urlParamsKeyValueListText" value="query=&#10;&amp;pageNum=1&#10;&amp;pageSize=1" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9000/store/allUsers?pageSize=1&amp;pageNum=1&amp;query=&#13;&#10;Request Headers: &#13;&#10;    Authorization: pass&#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;number&quot;:15,&quot;data&quot;:[{&quot;account&quot;:&quot;admin&quot;,&quot;email&quot;:&quot;yinin6@foxmail.com&quot;,&quot;kind&quot;:&quot;admin&quot;,&quot;password&quot;:&quot;5fd924625f6ab16a19cc9807c7c506ae1813490e4ba675f843d5a10e0baacdb8&quot;,&quot;phone&quot;:&quot;888888&quot;,&quot;user_id&quot;:0,&quot;user_kind_id&quot;:0,&quot;user_name&quot;:&quot;admin&quot;}]}" />
+          <option name="url" value="/allUsers" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.consumer.controller.CallUserController" />
+          <option name="code" value="401" />
+          <option name="enableEnv" value="gateway" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="getUserList" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.consumer.controller.CallUserController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="getUserList" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/allUsers" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/allUsers" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;query&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;&quot;},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;pageNum&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:1},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;pageSize&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:1}]" />
+              <option name="urlParamsKeyValueListText" value="query=&#10;&amp;pageNum=1&#10;&amp;pageSize=1" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9000/store/allUsers?pageSize=1&amp;pageNum=1&amp;query=&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="Error request, response status: 401" />
+          <option name="url" value="/allUsers" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.consumer.controller.CallUserController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="constumer" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="getUserList" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.consumer.controller.CallUserController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="getUserList" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/allUsers" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/allUsers" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;query&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;&quot;},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;pageNum&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:1},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;pageSize&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:1}]" />
+              <option name="urlParamsKeyValueListText" value="query=&#10;&amp;pageNum=1&#10;&amp;pageSize=1" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9002//allUsers?pageSize=1&amp;pageNum=1&amp;query=&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;number&quot;:15,&quot;data&quot;:[{&quot;account&quot;:&quot;admin&quot;,&quot;email&quot;:&quot;yinin6@foxmail.com&quot;,&quot;kind&quot;:&quot;admin&quot;,&quot;password&quot;:&quot;5fd924625f6ab16a19cc9807c7c506ae1813490e4ba675f843d5a10e0baacdb8&quot;,&quot;phone&quot;:&quot;888888&quot;,&quot;user_id&quot;:0,&quot;user_kind_id&quot;:0,&quot;user_name&quot;:&quot;admin&quot;}]}" />
+          <option name="url" value="/allUsers" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.consumer.controller.CallUserController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="constumer" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="login" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.consumer.controller.CallUserController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="login" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/login" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/login" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;account&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;account_grjol&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;password_tjj3v&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;code&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;code_rdte8&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="account=account_grjol&#10;&amp;password=password_tjj3v&#10;&amp;code=code_rdte8" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9002//login?password=password_tjj3v&amp;code=code_rdte8&amp;account=account_grjol&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;flag&quot;:&quot;error&quot;,&quot;info&quot;:&quot;系统出现故障，请稍后再试！&quot;}" />
+          <option name="url" value="/login" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.consumer.controller.CallUserController" />
+          <option name="code" value="500" />
+          <option name="enableEnv" value="constumer" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="login" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.consumer.controller.CallUserController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="login" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/login" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/login" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;account&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;account_grjol&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;password_tjj3v&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;code&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;code_rdte8&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="account=account_grjol&#10;&amp;password=password_tjj3v&#10;&amp;code=code_rdte8" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9002//login?password=password_tjj3v&amp;code=code_rdte8&amp;account=account_grjol&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&#10;&#9;&quot;timestamp&quot;:1654409025552,&#10;&#9;&quot;status&quot;:500,&#10;&#9;&quot;error&quot;:&quot;Internal Server Error&quot;,&#10;&#9;&quot;message&quot;:&quot;com.netflix.client.ClientException: Load balancer does not have available server for client: user-provider&quot;,&#10;&#9;&quot;trace&quot;:&quot;java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: user-provider\r\n\tat org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:90)\r\n\tat feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:110)\r\n\tat feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:80)\r\n\tat feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100)\r\n\tat com.sun.proxy.$Proxy106.login(Unknown Source)\r\n\tat com.example.consumer.controller.CallUserController.login(CallUserController.java:24)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)\r\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)\r\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:634)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)\r\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:741)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: com.netflix.client.ClientException: Load balancer does not have available server for client: user-provider\r\n\tat com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:483)\r\n\tat com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)\r\n\tat com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)\r\n\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\r\n\tat rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)\r\n\tat rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)\r\n\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\r\n\tat rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)\r\n\tat rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)\r\n\tat rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)\r\n\tat rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)\r\n\tat rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)\r\n\tat rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)\r\n\tat rx.Subscriber.setProducer(Subscriber.java:209)\r\n\tat rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)\r\n\tat rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\r\n\tat rx.Observable.subscribe(Observable.java:10423)\r\n\tat rx.Observable.subscribe(Observable.java:10390)\r\n\tat rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:443)\r\n\tat rx.observables.BlockingObservable.single(BlockingObservable.java:340)\r\n\tat com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)\r\n\tat org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:83)\r\n\t... 47 more\r\n&quot;,&#10;&#9;&quot;path&quot;:&quot;//login&quot;&#10;}" />
+          <option name="url" value="/login" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.consumer.controller.CallUserController" />
+          <option name="code" value="500" />
+          <option name="enableEnv" value="constumer" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="login" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.consumer.controller.CallUserController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="login" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/login" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/login" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;account&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;account_grjol&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;password_tjj3v&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;code&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;code_rdte8&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="account=account_grjol&#10;&amp;password=password_tjj3v&#10;&amp;code=code_rdte8" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9002//login?password=password_tjj3v&amp;code=code_rdte8&amp;account=account_grjol&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&#10;&#9;&quot;timestamp&quot;:1654409024918,&#10;&#9;&quot;status&quot;:500,&#10;&#9;&quot;error&quot;:&quot;Internal Server Error&quot;,&#10;&#9;&quot;message&quot;:&quot;com.netflix.client.ClientException: Load balancer does not have available server for client: user-provider&quot;,&#10;&#9;&quot;trace&quot;:&quot;java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: user-provider\r\n\tat org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:90)\r\n\tat feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:110)\r\n\tat feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:80)\r\n\tat feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100)\r\n\tat com.sun.proxy.$Proxy106.login(Unknown Source)\r\n\tat com.example.consumer.controller.CallUserController.login(CallUserController.java:24)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)\r\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)\r\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:634)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)\r\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:741)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: com.netflix.client.ClientException: Load balancer does not have available server for client: user-provider\r\n\tat com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:483)\r\n\tat com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)\r\n\tat com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)\r\n\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\r\n\tat rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)\r\n\tat rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)\r\n\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\r\n\tat rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)\r\n\tat rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)\r\n\tat rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)\r\n\tat rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)\r\n\tat rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)\r\n\tat rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)\r\n\tat rx.Subscriber.setProducer(Subscriber.java:209)\r\n\tat rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)\r\n\tat rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\r\n\tat rx.Observable.subscribe(Observable.java:10423)\r\n\tat rx.Observable.subscribe(Observable.java:10390)\r\n\tat rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:443)\r\n\tat rx.observables.BlockingObservable.single(BlockingObservable.java:340)\r\n\tat com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)\r\n\tat org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:83)\r\n\t... 47 more\r\n&quot;,&#10;&#9;&quot;path&quot;:&quot;//login&quot;&#10;}" />
+          <option name="url" value="/login" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.consumer.controller.CallUserController" />
+          <option name="code" value="500" />
+          <option name="enableEnv" value="constumer" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="login" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.consumer.controller.CallUserController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="login" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/login" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/login" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;account&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;account_grjol&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;password_tjj3v&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;code&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;code_rdte8&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="account=account_grjol&#10;&amp;password=password_tjj3v&#10;&amp;code=code_rdte8" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9002//login?password=password_tjj3v&amp;code=code_rdte8&amp;account=account_grjol&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&#10;&#9;&quot;timestamp&quot;:1654409024232,&#10;&#9;&quot;status&quot;:500,&#10;&#9;&quot;error&quot;:&quot;Internal Server Error&quot;,&#10;&#9;&quot;message&quot;:&quot;com.netflix.client.ClientException: Load balancer does not have available server for client: user-provider&quot;,&#10;&#9;&quot;trace&quot;:&quot;java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: user-provider\r\n\tat org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:90)\r\n\tat feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:110)\r\n\tat feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:80)\r\n\tat feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100)\r\n\tat com.sun.proxy.$Proxy106.login(Unknown Source)\r\n\tat com.example.consumer.controller.CallUserController.login(CallUserController.java:24)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)\r\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)\r\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:634)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)\r\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:741)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: com.netflix.client.ClientException: Load balancer does not have available server for client: user-provider\r\n\tat com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:483)\r\n\tat com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)\r\n\tat com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)\r\n\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\r\n\tat rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)\r\n\tat rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)\r\n\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\r\n\tat rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)\r\n\tat rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)\r\n\tat rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)\r\n\tat rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)\r\n\tat rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)\r\n\tat rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)\r\n\tat rx.Subscriber.setProducer(Subscriber.java:209)\r\n\tat rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)\r\n\tat rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\r\n\tat rx.Observable.subscribe(Observable.java:10423)\r\n\tat rx.Observable.subscribe(Observable.java:10390)\r\n\tat rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:443)\r\n\tat rx.observables.BlockingObservable.single(BlockingObservable.java:340)\r\n\tat com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)\r\n\tat org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:83)\r\n\t... 47 more\r\n&quot;,&#10;&#9;&quot;path&quot;:&quot;//login&quot;&#10;}" />
+          <option name="url" value="/login" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.consumer.controller.CallUserController" />
+          <option name="code" value="500" />
+          <option name="enableEnv" value="constumer" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="login" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.consumer.controller.CallUserController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="login" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/login" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/login" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;account&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;account_grjol&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;password_tjj3v&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;code&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;code_rdte8&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="account=account_grjol&#10;&amp;password=password_tjj3v&#10;&amp;code=code_rdte8" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9002//login?password=password_tjj3v&amp;code=code_rdte8&amp;account=account_grjol&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&#10;&#9;&quot;timestamp&quot;:1654408999551,&#10;&#9;&quot;status&quot;:500,&#10;&#9;&quot;error&quot;:&quot;Internal Server Error&quot;,&#10;&#9;&quot;message&quot;:&quot;com.netflix.client.ClientException: Load balancer does not have available server for client: user-provider&quot;,&#10;&#9;&quot;trace&quot;:&quot;java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: user-provider\r\n\tat org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:90)\r\n\tat feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:110)\r\n\tat feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:80)\r\n\tat feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100)\r\n\tat com.sun.proxy.$Proxy106.login(Unknown Source)\r\n\tat com.example.consumer.controller.CallUserController.login(CallUserController.java:24)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)\r\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)\r\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:634)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)\r\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:741)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: com.netflix.client.ClientException: Load balancer does not have available server for client: user-provider\r\n\tat com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:483)\r\n\tat com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)\r\n\tat com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)\r\n\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\r\n\tat rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)\r\n\tat rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)\r\n\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\r\n\tat rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)\r\n\tat rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)\r\n\tat rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)\r\n\tat rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)\r\n\tat rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)\r\n\tat rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)\r\n\tat rx.Subscriber.setProducer(Subscriber.java:209)\r\n\tat rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)\r\n\tat rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\r\n\tat rx.Observable.subscribe(Observable.java:10423)\r\n\tat rx.Observable.subscribe(Observable.java:10390)\r\n\tat rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:443)\r\n\tat rx.observables.BlockingObservable.single(BlockingObservable.java:340)\r\n\tat com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)\r\n\tat org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:83)\r\n\t... 47 more\r\n&quot;,&#10;&#9;&quot;path&quot;:&quot;//login&quot;&#10;}" />
+          <option name="url" value="/login" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.consumer.controller.CallUserController" />
+          <option name="code" value="500" />
+          <option name="enableEnv" value="constumer" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="login" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.consumer.controller.CallUserController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="login" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/login" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/login" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;account&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;account_grjol&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;password_tjj3v&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;code&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;code_rdte8&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="account=account_grjol&#10;&amp;password=password_tjj3v&#10;&amp;code=code_rdte8" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9002//login?password=password_tjj3v&amp;code=code_rdte8&amp;account=account_grjol&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&#10;&#9;&quot;timestamp&quot;:1654408450611,&#10;&#9;&quot;status&quot;:500,&#10;&#9;&quot;error&quot;:&quot;Internal Server Error&quot;,&#10;&#9;&quot;message&quot;:&quot;com.netflix.client.ClientException: Load balancer does not have available server for client: user-provider&quot;,&#10;&#9;&quot;trace&quot;:&quot;java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: user-provider\r\n\tat org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:90)\r\n\tat feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:110)\r\n\tat feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:80)\r\n\tat feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100)\r\n\tat com.sun.proxy.$Proxy95.login(Unknown Source)\r\n\tat com.example.consumer.controller.CallUserController.login(CallUserController.java:24)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)\r\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)\r\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:634)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)\r\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:741)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: com.netflix.client.ClientException: Load balancer does not have available server for client: user-provider\r\n\tat com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:483)\r\n\tat com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)\r\n\tat com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)\r\n\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\r\n\tat rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)\r\n\tat rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)\r\n\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\r\n\tat rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)\r\n\tat rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)\r\n\tat rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)\r\n\tat rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)\r\n\tat rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)\r\n\tat rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)\r\n\tat rx.Subscriber.setProducer(Subscriber.java:209)\r\n\tat rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)\r\n\tat rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\r\n\tat rx.Observable.subscribe(Observable.java:10423)\r\n\tat rx.Observable.subscribe(Observable.java:10390)\r\n\tat rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:443)\r\n\tat rx.observables.BlockingObservable.single(BlockingObservable.java:340)\r\n\tat com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)\r\n\tat org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:83)\r\n\t... 47 more\r\n&quot;,&#10;&#9;&quot;path&quot;:&quot;//login&quot;&#10;}" />
+          <option name="url" value="/login" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.consumer.controller.CallUserController" />
+          <option name="code" value="500" />
+          <option name="enableEnv" value="constumer" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="login" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.consumer.controller.CallUserController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="login" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/login" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/login" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;account&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;account_grjol&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;password_tjj3v&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;code&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;code_rdte8&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="account=account_grjol&#10;&amp;password=password_tjj3v&#10;&amp;code=code_rdte8" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9002//login?password=password_tjj3v&amp;code=code_rdte8&amp;account=account_grjol&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&#10;&#9;&quot;timestamp&quot;:1654408378494,&#10;&#9;&quot;status&quot;:500,&#10;&#9;&quot;error&quot;:&quot;Internal Server Error&quot;,&#10;&#9;&quot;message&quot;:&quot;com.netflix.client.ClientException: Load balancer does not have available server for client: user-provider&quot;,&#10;&#9;&quot;trace&quot;:&quot;java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: user-provider\r\n\tat org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:90)\r\n\tat feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:110)\r\n\tat feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:80)\r\n\tat feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100)\r\n\tat com.sun.proxy.$Proxy95.login(Unknown Source)\r\n\tat com.example.consumer.controller.CallUserController.login(CallUserController.java:24)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)\r\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)\r\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:634)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)\r\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:741)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: com.netflix.client.ClientException: Load balancer does not have available server for client: user-provider\r\n\tat com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:483)\r\n\tat com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)\r\n\tat com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)\r\n\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\r\n\tat rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)\r\n\tat rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)\r\n\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\r\n\tat rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)\r\n\tat rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)\r\n\tat rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)\r\n\tat rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)\r\n\tat rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)\r\n\tat rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)\r\n\tat rx.Subscriber.setProducer(Subscriber.java:209)\r\n\tat rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)\r\n\tat rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\r\n\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\r\n\tat rx.Observable.subscribe(Observable.java:10423)\r\n\tat rx.Observable.subscribe(Observable.java:10390)\r\n\tat rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:443)\r\n\tat rx.observables.BlockingObservable.single(BlockingObservable.java:340)\r\n\tat com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)\r\n\tat org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:83)\r\n\t... 47 more\r\n&quot;,&#10;&#9;&quot;path&quot;:&quot;//login&quot;&#10;}" />
+          <option name="url" value="/login" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.consumer.controller.CallUserController" />
+          <option name="code" value="404" />
+          <option name="enableEnv" value="constumer" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="login" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.consumer.controller.CallUserController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="login" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;account&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;account_7c6g3&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;password_rx58p&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;code&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;code_fijk7&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="account=account_7c6g3&#10;&amp;password=password_rx58p&#10;&amp;code=code_fijk7" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9002/?password=password_rx58p&amp;code=code_fijk7&amp;account=account_7c6g3&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&#10;&#9;&quot;timestamp&quot;:1654408340689,&#10;&#9;&quot;status&quot;:404,&#10;&#9;&quot;error&quot;:&quot;Not Found&quot;,&#10;&#9;&quot;message&quot;:&quot;No message available&quot;,&#10;&#9;&quot;path&quot;:&quot;/&quot;&#10;}" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.ProductProvider.controller.ProductKindController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="product" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="getList" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.ProductProvider.controller.ProductKindController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="getList" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/ProductKindIndex" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/ProductKindIndex" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListText" value="" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9011//ProductKindIndex&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;number&quot;:3,&quot;data&quot;:[{&quot;kind&quot;:&quot;玩具1&quot;,&quot;pk_create_time&quot;:&quot;2021-07-04 22:21:49&quot;,&quot;pk_update_time&quot;:&quot;2021-07-04 22:24:52&quot;,&quot;product_kind_id&quot;:1},{&quot;kind&quot;:&quot;玩具2&quot;,&quot;pk_create_time&quot;:&quot;2021-07-04 22:21:59&quot;,&quot;pk_update_time&quot;:&quot;2021-07-04 22:25:00&quot;,&quot;product_kind_id&quot;:2},{&quot;kind&quot;:&quot;玩具3&quot;,&quot;pk_create_time&quot;:&quot;2021-07-06 02:20:25&quot;,&quot;pk_update_time&quot;:&quot;2022-05-30 18:14:48&quot;,&quot;product_kind_id&quot;:3}]}" />
+          <option name="url" value="/ProductKindIndex" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.ProductProvider.controller.ProductKindController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="product" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="getList" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.ProductProvider.controller.ProductKindController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="getList" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/ProductKindIndex" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/ProductKindIndex" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListText" value="" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9011//ProductKindIndex&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;number&quot;:3,&quot;data&quot;:[{&quot;kind&quot;:&quot;玩具1&quot;,&quot;pk_create_time&quot;:&quot;2021-07-04 22:21:49&quot;,&quot;pk_update_time&quot;:&quot;2021-07-04 22:24:52&quot;,&quot;product_kind_id&quot;:1},{&quot;kind&quot;:&quot;玩具2&quot;,&quot;pk_create_time&quot;:&quot;2021-07-04 22:21:59&quot;,&quot;pk_update_time&quot;:&quot;2021-07-04 22:25:00&quot;,&quot;product_kind_id&quot;:2},{&quot;kind&quot;:&quot;玩具3&quot;,&quot;pk_create_time&quot;:&quot;2021-07-06 02:20:25&quot;,&quot;pk_update_time&quot;:&quot;2022-05-30 18:14:48&quot;,&quot;product_kind_id&quot;:3}]}" />
+          <option name="url" value="/ProductKindIndex" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.ProductProvider.controller.ProductController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="product" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="findProduct" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.ProductProvider.controller.ProductController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="findProduct" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/findProduct" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/findProduct" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;p_name&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;产品&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;p_account&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;product_kind_id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="p_name=产品&#10;&amp;p_account=&#10;&amp;product_kind_id=1" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9011//findProduct?p_account=&amp;p_name=%E4%BA%A7%E5%93%81&amp;product_kind_id=1&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;number&quot;:7,&quot;data&quot;:[{&quot;p_account&quot;:&quot;PRODUCT20200723021203643&quot;,&quot;p_brief&quot;:&quot;产品&quot;,&quot;p_name&quot;:&quot;产品1&quot;,&quot;p_specification&quot;:&quot;物美价廉&quot;,&quot;product_id&quot;:1,&quot;product_kind_id&quot;:1},{&quot;p_account&quot;:&quot;1625588107856&quot;,&quot;p_brief&quot;:&quot;产品&quot;,&quot;p_name&quot;:&quot;产品3&quot;,&quot;p_specification&quot;:&quot;物美价廉&quot;,&quot;product_id&quot;:3,&quot;product_kind_id&quot;:1},{&quot;p_account&quot;:&quot;1625589235176&quot;,&quot;p_brief&quot;:&quot;产品&quot;,&quot;p_name&quot;:&quot;产品5&quot;,&quot;p_specification&quot;:&quot;物美价廉&quot;,&quot;product_id&quot;:6,&quot;product_kind_id&quot;:1}]}" />
+          <option name="url" value="/findProduct" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.ProductProvider.controller.ProductController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="product" />
+          <option name="enableProject" value="ykp" />
+          <option name="method" value="findProduct" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="" />
+              <option name="className" value="com.example.ProductProvider.controller.ProductController" />
+              <option name="jsonDocument" value="" />
+              <option name="method" value="findProduct" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="GET" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/findProduct" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/findProduct" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListText" value="" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;p_name&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;1&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;p_account&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;1&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;product_kind_id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="p_name=1&#10;&amp;p_account=1&#10;&amp;product_kind_id=1" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9011//findProduct?p_account=1&amp;p_name=1&amp;product_kind_id=1&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;number&quot;:7,&quot;data&quot;:[{&quot;p_account&quot;:&quot;PRODUCT20200723021203643&quot;,&quot;p_brief&quot;:&quot;产品&quot;,&quot;p_name&quot;:&quot;产品1&quot;,&quot;p_specification&quot;:&quot;物美价廉&quot;,&quot;product_id&quot;:1,&quot;product_kind_id&quot;:1}]}" />
+          <option name="url" value="/findProduct" />
+        </ResponseHistory>
+      </list>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.UserProvider.dao.FactoryDao">
+   <select id="getFactoryByMassage" resultType="com.example.UserProvider.bean.Factory">
+      select * from user natural join user_kind where account=#{account} and  password=#{password}
+   </select>
+
+   <select id="getAllFactories" resultType="com.example.UserProvider.bean.Factory">
+      SELECT * FROM user natural join factory
+      <if test="account !=null ">
+         WHERE f_name like #{account}
+      </if>
+      LIMIT #{pageStart},#{pageSize}
+   </select>
+
+   <select id="getFactory" resultType="com.example.UserProvider.bean.Factory">
+      SELECT * FROM user natural join factory
+        WHERE user_id = #{user_id}
+   </select>
+
+
+
+
+
+   <select id="getFactoryCounts" resultType="java.lang.Integer">
+      SELECT count(*) FROM factory
+      <if test="account !=null ">
+         WHERE f_name like #{account}
+      </if>
+   </select>
+
+   <select id="addFactory" resultType="java.lang.String">
+        call register(#{email},#{account},#{password},#{user_name},#{phone},#{kind},#{f_name},#{brief})
+   </select>
+
+   <delete id="delete" >
+      delete from factory where factory_id=#{id}
+   </delete>
+
+
+   <update id="updateFactory">
+      update factory set f_name=#{f_name},f_brief=#{f_brief} where factory_id=#{factory_id}
+   </update>
+   <update id="updateState">
+        update factory set state=#{state} where factory_id =#{id}
+   </update>
+
+
+</mapper>

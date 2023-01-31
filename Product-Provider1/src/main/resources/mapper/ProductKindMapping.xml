@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.ProductProvider.dao.ProductKindDao">
+
+
+   <select id="getAllUser" resultType="com.example.ProductProvider.bean.ProductKind">
+      SELECT * FROM product_kind
+      <if test="account !=null ">
+         WHERE kind like #{account}
+      </if>
+      LIMIT #{pageStart},#{pageSize}
+   </select>
+
+   <select id="getUserCounts" resultType="java.lang.Integer">
+      SELECT count(*) FROM product_kind
+      <if test="account !=null ">
+         WHERE kind like #{account}
+      </if>
+   </select>
+
+
+   <insert id="addUser">
+      insert into product_kind(kind)values (#{kind})
+   </insert>
+
+
+
+   <delete id="deleteUser" >
+      delete from product_kind where product_kind_id=#{id}
+   </delete>
+
+   <update id="updateUser">
+      update product_kind set kind=#{kind} where product_kind_id=#{product_kind_id}
+   </update>
+
+
+</mapper>

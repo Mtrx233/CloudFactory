@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.ProductProvider.dao.ProductDao">
+
+
+   <select id="getAllUser" resultType="com.example.ProductProvider.bean.Product">
+      SELECT * FROM product_kind natural join product
+      <if test="account !=null ">
+         WHERE p_name like #{account}
+      </if>
+      LIMIT #{pageStart},#{pageSize}
+   </select>
+
+
+   <select id="getIndex" resultType="com.example.ProductProvider.bean.Product">
+      SELECT * FROM  product WHERE product_id NOT IN (SELECT product_id FROM ability WHERE equipment_id =#{equipment_id})
+   </select>
+
+
+
+   <select id="getUserCounts" resultType="java.lang.Integer">
+      SELECT count(*) FROM product
+      <if test="account !=null ">
+         WHERE p_name like #{account}
+      </if>
+   </select>
+   <select id="findProduct" resultType="com.example.ProductProvider.bean.Product">
+      select * from product_kind natural join  product
+        <where>
+           <if test="product_kind_id !=-1">
+              and product_kind_id = #{product_kind_id}
+           </if>
+            <if  test="p_name !=null">
+              and  p_name like "%" #{p_name} "%"
+            </if>
+           <if  test="p_account !=null">
+              and p_account like "%" #{p_account} "%"
+           </if>
+           <if  test="q_low !=null">
+              and  p_price >= #{q_low}
+           </if>
+           <if  test="q_high !=null">
+              and  p_price &lt;= #{q_high}
+           </if>
+        </where>
+      LIMIT #{pageStart},#{pageSize}
+   </select>
+   <select id="getProductCounts" resultType="java.lang.Integer">
+      SELECT count(*) FROM product
+      <where>
+         <if test="product_kind_id !=-1">
+            and product_kind_id = #{product_kind_id}
+         </if>
+         <if  test="p_name !=null">
+            and  p_name like "%" #{p_name} "%"
+         </if>
+         <if  test="p_account !=null">
+            and p_account like "%" #{p_account} "%"
+         </if>
+         <if  test="q_low !=null">
+            and  p_price > #{q_low}
+         </if>
+         <if  test="q_high !=null">
+            and  p_price &lt; #{q_high}
+         </if>
+      </where>
+   </select>
+
+   <insert id="addUser">
+      insert into product(product_kind_id,p_name,p_account,p_brief,p_specification,p_price) values (#{product_kind_id},#{p_name},#{p_account},#{p_brief},#{p_specification}, #{p_price})
+   </insert>
+
+
+
+   <delete id="deleteUser" >
+      delete from product where product_id=#{id}
+   </delete>
+
+   <update id="updateUser">
+      update product set p_name=#{p_name} , p_brief=#{p_brief} ,p_specification=#{p_specification},p_price = #{p_price} where product_id=#{product_id}
+   </update>
+
+
+</mapper>
